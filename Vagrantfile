@@ -35,7 +35,7 @@ SCRIPT
 
 Vagrant.configure("2") do |config|
 
-  config.vm.define "test1" do |server1|
+  config.vm.define "mainVM" do |server1|
     server1.vm.box = "ubuntu/bionic64"
      config.vm.provider "virtualbox" do |mainVM|      
       mainVM.memory = "3072"
